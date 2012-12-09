@@ -6,6 +6,7 @@ gem 'bootstrap-sass', '2.0.0'
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.8.1'
+  gem 'ZenTest'
 end
 
 # Gems used only for assets and not required
@@ -24,5 +25,5 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '0.12.2'
 end
